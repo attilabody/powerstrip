@@ -1,4 +1,4 @@
-update=Wed 14 Apr 2021 10:35:20 PM CEST
+update=Thu 15 Apr 2021 07:44:22 PM CEST
 version=1
 last_client=kicad
 [general]
@@ -32,7 +32,7 @@ TrackWidth1=0.254
 TrackWidth2=0.254
 TrackWidth3=0.3
 TrackWidth4=0.5
-TrackWidth5=0.75
+TrackWidth5=0.8
 TrackWidth6=1
 TrackWidth7=1.25
 ViaDiameter1=0.8
@@ -245,7 +245,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=GND
 Clearance=0.2
-TrackWidth=0.8
+TrackWidth=0.5
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
@@ -256,7 +256,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=Power
 Clearance=0.2
-TrackWidth=0.8
+TrackWidth=0.5
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
