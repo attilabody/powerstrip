@@ -48,8 +48,6 @@ F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 2600 5200 50  000
 $EndComp
 Wire Wire Line
 	5200 2850 6100 2850
-Text Label 5500 2850 2    50   ~ 0
-GPIO0
 $Comp
 L Device:R_Small R7
 U 1 1 60761D0F
@@ -182,8 +180,6 @@ Wire Wire Line
 	4350 5450 4350 5100
 Text Label 4350 4400 3    50   ~ 0
 RELAY2
-Text Label 5500 2950 2    50   ~ 0
-GPIO2
 $Comp
 L power:GND #PWR0107
 U 1 1 6078A22E
@@ -611,152 +607,8 @@ F 3 "" H 8050 3400 50  0001 C CNN
 	1    8050 3400
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J2
-U 1 1 608085B0
-P 3150 4200
-F 0 "J2" V 3068 4112 50  0000 R CNN
-F 1 "Conn_01x01" V 3023 4112 50  0001 R CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 3150 4200 50  0001 C CNN
-F 3 "~" H 3150 4200 50  0001 C CNN
-	1    3150 4200
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	4350 4700 4350 4400
-$Comp
-L Connector_Generic:Conn_01x01 J3
-U 1 1 60809E77
-P 4350 4200
-F 0 "J3" V 4268 4112 50  0000 R CNN
-F 1 "Conn_01x01" V 4223 4112 50  0001 R CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 4350 4200 50  0001 C CNN
-F 3 "~" H 4350 4200 50  0001 C CNN
-	1    4350 4200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J4
-U 1 1 6080A4B7
-P 5050 4200
-F 0 "J4" V 4968 4112 50  0000 R CNN
-F 1 "Conn_01x01" V 4923 4112 50  0001 R CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 5050 4200 50  0001 C CNN
-F 3 "~" H 5050 4200 50  0001 C CNN
-	1    5050 4200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J5
-U 1 1 6080AAE4
-P 5700 4200
-F 0 "J5" V 5618 4112 50  0000 R CNN
-F 1 "Conn_01x01" V 5573 4112 50  0001 R CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 5700 4200 50  0001 C CNN
-F 3 "~" H 5700 4200 50  0001 C CNN
-	1    5700 4200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J6
-U 1 1 6080B190
-P 6350 4200
-F 0 "J6" V 6268 4112 50  0000 R CNN
-F 1 "Conn_01x01" V 6223 4112 50  0001 R CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 6350 4200 50  0001 C CNN
-F 3 "~" H 6350 4200 50  0001 C CNN
-	1    6350 4200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J7
-U 1 1 6080B814
-P 7000 4200
-F 0 "J7" V 6918 4112 50  0000 R CNN
-F 1 "Conn_01x01" V 6873 4112 50  0001 R CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 7000 4200 50  0001 C CNN
-F 3 "~" H 7000 4200 50  0001 C CNN
-	1    7000 4200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J8
-U 1 1 6080BE94
-P 7650 4200
-F 0 "J8" V 7568 4112 50  0000 R CNN
-F 1 "Conn_01x01" V 7523 4112 50  0001 R CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 7650 4200 50  0001 C CNN
-F 3 "~" H 7650 4200 50  0001 C CNN
-	1    7650 4200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x01 J9
-U 1 1 6080C4EB
-P 8300 4200
-F 0 "J9" V 8218 4112 50  0000 R CNN
-F 1 "Conn_01x01" V 8173 4112 50  0001 R CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 8300 4200 50  0001 C CNN
-F 3 "~" H 8300 4200 50  0001 C CNN
-	1    8300 4200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x09 J10
-U 1 1 60824243
-P 7450 1750
-F 0 "J10" V 7667 1746 50  0000 C CNN
-F 1 "Conn_01x09" V 7576 1746 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 7450 1750 50  0001 C CNN
-F 3 "~" H 7450 1750 50  0001 C CNN
-	1    7450 1750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7050 1950 7050 2250
-Wire Wire Line
-	7150 1950 7150 2250
-Wire Wire Line
-	7250 1950 7250 2250
-Wire Wire Line
-	7350 1950 7350 2250
-Wire Wire Line
-	7450 1950 7450 2250
-Wire Wire Line
-	7550 1950 7550 2250
-Wire Wire Line
-	7650 1950 7650 2250
-Wire Wire Line
-	7750 1950 7750 2250
-Wire Wire Line
-	7850 1950 7850 2250
-Text Label 7150 2250 1    50   ~ 0
-RELAY1
-Text Label 7250 2250 1    50   ~ 0
-RELAY2
-Text Label 7350 2250 1    50   ~ 0
-RELAY3
-Text Label 7450 2250 1    50   ~ 0
-RELAY4
-Text Label 7550 2250 1    50   ~ 0
-RELAY5
-Text Label 7650 2250 1    50   ~ 0
-RELAY6
-Text Label 7750 2250 1    50   ~ 0
-RELAY7
-Text Label 7850 2250 1    50   ~ 0
-RELAY8
-$Comp
-L power:GND #PWR0130
-U 1 1 6084ABDB
-P 7050 2250
-F 0 "#PWR0130" H 7050 2000 50  0001 C CNN
-F 1 "GND" H 7055 2077 50  0000 C CNN
-F 2 "" H 7050 2250 50  0001 C CNN
-F 3 "" H 7050 2250 50  0001 C CNN
-	1    7050 2250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2800 2250 2800 2450
 Wire Wire Line
@@ -918,8 +770,6 @@ $EndComp
 Wire Wire Line
 	8150 2050 8150 1950
 Wire Wire Line
-	8050 1950 8050 2850
-Wire Wire Line
 	8050 3050 7850 3050
 Wire Wire Line
 	6650 2350 6650 3050
@@ -942,7 +792,7 @@ $EndComp
 Wire Wire Line
 	7550 3400 7550 3350
 Text Label 8050 2450 3    50   ~ 0
-5V_In
++5V
 $Comp
 L Device:CP_Small C3
 U 1 1 6093F1B1
@@ -1110,8 +960,6 @@ GPIO3
 Text Label 5500 2450 2    50   ~ 0
 GPIO1
 Wire Wire Line
-	5200 2950 5500 2950
-Wire Wire Line
 	6100 2350 6100 2550
 Wire Wire Line
 	5750 2550 5650 2550
@@ -1125,18 +973,104 @@ Wire Wire Line
 	3950 4250 3950 4500
 Wire Wire Line
 	3550 4500 3550 5250
+Text Label 5500 2850 2    50   ~ 0
+GPIO0
+NoConn ~ 5200 2950
+Wire Wire Line
+	8450 1950 8450 2250
+Wire Wire Line
+	8550 1950 8550 2250
+Wire Wire Line
+	8650 1950 8650 2250
+Wire Wire Line
+	8850 1950 8850 2250
+Wire Wire Line
+	8950 1950 8950 2250
+Wire Wire Line
+	9050 1950 9050 2250
+Wire Wire Line
+	9150 1950 9150 2250
+Text Label 8350 2250 1    50   ~ 0
+RELAY1
+Text Label 8450 2250 1    50   ~ 0
+RELAY2
+Text Label 8550 2250 1    50   ~ 0
+RELAY3
+Text Label 8650 2250 1    50   ~ 0
+RELAY4
+Text Label 8850 2250 1    50   ~ 0
+RELAY5
+Text Label 8950 2250 1    50   ~ 0
+RELAY6
+Text Label 9050 2250 1    50   ~ 0
+RELAY7
+Text Label 9150 2250 1    50   ~ 0
+RELAY8
 $Comp
-L Connector_Generic:Conn_01x01 J13
-U 1 1 6091A2E0
-P 8250 2850
-F 0 "J13" H 8330 2892 50  0000 L CNN
-F 1 "Relay +5V" H 8330 2801 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 8250 2850 50  0001 C CNN
-F 3 "~" H 8250 2850 50  0001 C CNN
-	1    8250 2850
+L Connector_Generic:Conn_01x09 J3
+U 1 1 6082EAF2
+P 8750 1750
+F 0 "J3" V 8967 1746 50  0000 C CNN
+F 1 "Conn_01x09" V 8876 1746 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 8750 1750 50  0001 C CNN
+F 3 "~" H 8750 1750 50  0001 C CNN
+	1    8750 1750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8050 1950 8050 3050
+Wire Wire Line
+	8350 1950 8350 2250
+NoConn ~ 8750 1950
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 6090F57A
+P 9100 3050
+F 0 "J2" H 9180 3042 50  0000 L CNN
+F 1 "Relay +5V" H 9180 2951 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9100 3050 50  0001 C CNN
+F 3 "~" H 9100 3050 50  0001 C CNN
+	1    9100 3050
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 609101A1
+P 9100 3300
+F 0 "J4" H 9180 3292 50  0000 L CNN
+F 1 "GND" H 9180 3201 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9100 3300 50  0001 C CNN
+F 3 "~" H 9100 3300 50  0001 C CNN
+	1    9100 3300
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8900 2950 8850 2950
+Wire Wire Line
+	8850 2950 8850 3050
+Wire Wire Line
+	8850 3050 8900 3050
+Wire Wire Line
+	8900 3200 8850 3200
+Wire Wire Line
+	8850 3200 8850 3300
+Wire Wire Line
+	8850 3300 8900 3300
+Wire Wire Line
+	8850 3300 8850 3400
+Connection ~ 8850 3300
+$Comp
+L power:GND #PWR01
+U 1 1 60921387
+P 8850 3400
+F 0 "#PWR01" H 8850 3150 50  0001 C CNN
+F 1 "GND" H 8855 3227 50  0000 C CNN
+F 2 "" H 8850 3400 50  0001 C CNN
+F 3 "" H 8850 3400 50  0001 C CNN
+	1    8850 3400
 	1    0    0    -1  
 $EndComp
-Connection ~ 8050 2850
 Wire Wire Line
-	8050 2850 8050 3050
+	8050 3050 8850 3050
+Connection ~ 8850 3050
 $EndSCHEMATC

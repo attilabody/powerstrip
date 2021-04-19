@@ -36,58 +36,9 @@ Wire Wire Line
 	5550 4700 5950 4700
 Wire Wire Line
 	5950 4700 5950 4450
-$Comp
-L Connector:Conn_01x01_Female J3
-U 1 1 60738ADD
-P 4500 4700
-F 0 "J3" H 4392 4475 50  0000 C CNN
-F 1 "Conn_01x01_Female" H 4392 4566 50  0001 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 4500 4700 50  0001 C CNN
-F 3 "~" H 4500 4700 50  0001 C CNN
-	1    4500 4700
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	4700 4700 5150 4700
-$Comp
-L Connector:Conn_01x01_Female J1
-U 1 1 6073DF24
-P 4500 3650
-F 0 "J1" H 4392 3425 50  0000 C CNN
-F 1 "Conn_01x01_Female" H 4392 3516 50  0001 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 4500 3650 50  0001 C CNN
-F 3 "~" H 4500 3650 50  0001 C CNN
-	1    4500 3650
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J2
-U 1 1 6073E4C4
-P 4500 3800
-F 0 "J2" H 4392 3575 50  0000 C CNN
-F 1 "Conn_01x01_Female" H 4392 3666 50  0001 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 4500 3800 50  0001 C CNN
-F 3 "~" H 4500 3800 50  0001 C CNN
-	1    4500 3800
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4700 3800 4700 3650
-Wire Wire Line
-	4700 3650 5300 3650
-Connection ~ 4700 3650
 Connection ~ 5550 3650
-$Comp
-L Connector:Conn_01x01_Female J7
-U 1 1 6073FDB4
-P 7100 4700
-F 0 "J7" H 7128 4726 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 7128 4635 50  0001 L CNN
-F 2 "Powerstrip:SolderWire-Mains" H 7100 4700 50  0001 C CNN
-F 3 "~" H 7100 4700 50  0001 C CNN
-	1    7100 4700
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector:Conn_01x01_Female J5
 U 1 1 6074042D
@@ -118,32 +69,6 @@ F 3 "http://www.vishay.com/docs/85557/ll4148.pdf" H 5550 4150 50  0001 C CNN
 	1    5550 4150
 	0    1    1    0   
 $EndComp
-$Comp
-L Connector:Conn_01x01_Female J4
-U 1 1 6074980E
-P 7100 3400
-F 0 "J4" H 7128 3426 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 7128 3335 50  0001 L CNN
-F 2 "Powerstrip:SolderWire-Mains" H 7100 3400 50  0001 C CNN
-F 3 "~" H 7100 3400 50  0001 C CNN
-	1    7100 3400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6250 3850 6250 3400
-Wire Wire Line
-	6250 3400 6900 3400
-$Comp
-L Connector:Conn_01x01_Female J6
-U 1 1 60781782
-P 7100 4500
-F 0 "J6" H 7128 4526 50  0000 L CNN
-F 1 "Conn_01x01_Female" H 7128 4435 50  0001 L CNN
-F 2 "Powerstrip:SolderWire-Mains" H 7100 4500 50  0001 C CNN
-F 3 "~" H 7100 4500 50  0001 C CNN
-	1    7100 4500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6900 4500 6700 4500
 Wire Wire Line
@@ -168,33 +93,60 @@ Wire Wire Line
 Connection ~ 5150 4700
 Wire Wire Line
 	5150 4700 5550 4700
+Wire Wire Line
+	5150 4300 5150 4050
+NoConn ~ 6250 3850
 $Comp
-L Connector:Conn_01x01_Female J8
-U 1 1 6078C226
-P 5150 3300
-F 0 "J8" H 5250 3300 50  0000 C CNN
-F 1 "Conn_01x01_Female" H 5050 3400 50  0001 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 5150 3300 50  0001 C CNN
-F 3 "~" H 5150 3300 50  0001 C CNN
-	1    5150 3300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J9
-U 1 1 6078C941
-P 5300 3300
-F 0 "J9" H 5192 3075 50  0000 C CNN
-F 1 "Conn_01x01_Female" H 5192 3166 50  0001 C CNN
-F 2 "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm" H 5300 3300 50  0001 C CNN
-F 3 "~" H 5300 3300 50  0001 C CNN
-	1    5300 3300
-	0    -1   -1   0   
+L Connector_Generic:Conn_01x05 J1
+U 1 1 6094B0FF
+P 4350 3850
+F 0 "J1" V 4314 3562 50  0000 R CNN
+F 1 "Conn_01x05" V 4223 3562 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 4350 3850 50  0001 C CNN
+F 3 "~" H 4350 3850 50  0001 C CNN
+	1    4350 3850
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	5150 4300 5150 3500
+	4550 3650 4650 3650
 Wire Wire Line
-	5300 3500 5300 3650
-Connection ~ 5300 3650
+	4650 3650 4650 3750
 Wire Wire Line
-	5300 3650 5550 3650
+	4650 3750 4550 3750
+Wire Wire Line
+	4650 3750 4650 3950
+Wire Wire Line
+	4650 3950 4550 3950
+Connection ~ 4650 3750
+$Comp
+L Connector:Conn_01x01_Female J6
+U 1 1 60781782
+P 7100 4500
+F 0 "J6" H 7128 4526 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 7128 4435 50  0001 L CNN
+F 2 "Powerstrip:SolderWire-Mains" H 7100 4500 50  0001 C CNN
+F 3 "~" H 7100 4500 50  0001 C CNN
+	1    7100 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female J7
+U 1 1 6073FDB4
+P 7100 4700
+F 0 "J7" H 7128 4726 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 7128 4635 50  0001 L CNN
+F 2 "Powerstrip:SolderWire-Mains" H 7100 4700 50  0001 C CNN
+F 3 "~" H 7100 4700 50  0001 C CNN
+	1    7100 4700
+	1    0    0    -1  
+$EndComp
+Connection ~ 4650 3650
+Wire Wire Line
+	4700 4700 4700 3850
+Wire Wire Line
+	4700 3850 4550 3850
+Wire Wire Line
+	4650 3650 5550 3650
+Wire Wire Line
+	5150 4050 4550 4050
 $EndSCHEMATC
