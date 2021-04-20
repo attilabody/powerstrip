@@ -706,8 +706,6 @@ F 3 "~" H 3050 2150 50  0001 C CNN
 	1    3050 2150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3300 1900 3300 2050
 $Comp
 L power:+3.3V #PWR0112
 U 1 1 607F1C7F
@@ -720,18 +718,7 @@ F 3 "" H 3300 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3300 2250 3300 2650
-$Comp
-L Device:R_Small R2
-U 1 1 607EFCB4
-P 3300 2150
-F 0 "R2" H 3359 2196 50  0000 L CNN
-F 1 "10k" H 3359 2105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3300 2150 50  0001 C CNN
-F 3 "~" H 3300 2150 50  0001 C CNN
-	1    3300 2150
-	1    0    0    -1  
-$EndComp
+	3300 1900 3300 2650
 $Comp
 L Connector_Generic:Conn_01x02 J11
 U 1 1 60842974
@@ -990,13 +977,13 @@ Wire Wire Line
 	9050 1950 9050 2250
 Wire Wire Line
 	9150 1950 9150 2250
-Text Label 8350 2250 1    50   ~ 0
-RELAY1
 Text Label 8450 2250 1    50   ~ 0
-RELAY2
+RELAY1
 Text Label 8550 2250 1    50   ~ 0
-RELAY3
+RELAY2
 Text Label 8650 2250 1    50   ~ 0
+RELAY3
+Text Label 8750 2250 1    50   ~ 0
 RELAY4
 Text Label 8850 2250 1    50   ~ 0
 RELAY5
@@ -1018,10 +1005,9 @@ F 3 "~" H 8750 1750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8050 1950 8050 3050
+	8050 1950 8050 2400
 Wire Wire Line
-	8350 1950 8350 2250
-NoConn ~ 8750 1950
+	8350 1950 8350 2400
 $Comp
 L Connector_Generic:Conn_01x02 J2
 U 1 1 6090F57A
@@ -1073,4 +1059,11 @@ $EndComp
 Wire Wire Line
 	8050 3050 8850 3050
 Connection ~ 8850 3050
+Wire Wire Line
+	8750 1950 8750 2250
+Wire Wire Line
+	8350 2400 8050 2400
+Connection ~ 8050 2400
+Wire Wire Line
+	8050 2400 8050 3050
 $EndSCHEMATC
